@@ -1,0 +1,632 @@
+<html>
+
+<head>
+        <title>
+                Hello there
+        </title>
+        <link rel="stylesheet"
+              type="text/css"
+              href="../Fonts/stylesheet.css" />
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+
+        <style>
+                body {
+                        /*background-color: #3F5369;*/
+                        background-image: url('../Images/Image (15).png');
+                        font-family: 'Teko';
+                        font-size:28px;
+                }
+
+                .container {
+                        background-color:#C8C8C8;
+                        /*color: #58718d;*/
+                        border-top: 0.1px solid ;
+                        border-left: 0.1px solid ;
+                        border-right: 0.1px solid ;
+                        /*blanchedalmond*/
+                }
+
+                .mdb-lightbox {
+                        /*font-family: Palatino, serif;*/
+                }
+
+                hr {
+                        height: 1px;
+                        /*color: blanchedalmond;*/
+                        background-color: black;
+                        border: none;
+                }
+
+                /*img:hover{
+                    border-bottom: 1px solid #7293b9;
+                    border-top: 1px solid #7293b9;
+                }*/
+
+                img:active {
+                        border: 1px solid #92bae9;
+                }
+
+                /* If the screen size is 601px wide or more, set the font-size of <div> to 30px */
+                @media screen and (min-width: 601px) {
+                        h3 {
+                                font-size: 30px;
+                        }
+                }
+
+                /* If the screen size is 600px wide or less, set the font-size of <div> to 20px */
+                @media screen and (max-width: 600px) {
+                        h3 {
+                                font-size: 20px;
+                        }
+                }
+
+                /* If the screen size is 600px wide or less, set the margin for container <div> to 20px */
+                @media screen and (max-width: 600px) {
+                        .container {
+                                /*padding-left:50px;
+                                margin-right:50px;*/
+                                
+                        }
+                }
+        </style>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Saeedo1998</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                        <a class="nav-link" href="../Default.html">Home </a>
+                                </li>
+
+                                <li class="nav-item active">
+                                        <a class="nav-link active" href="#">Gallery</a>
+                                </li>
+
+                                <!-- <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                </li> -->
+                                <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Works of Art
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="Black.shtml" target="_blank">Black</a>
+                                                <a class="dropdown-item disabled" href="#" target="_blank">Quote #1</a>
+                                                <a class="dropdown-item" href="Default2.html">Default2</a>
+                                                <!-- <div class="dropdown-divider"></div> -->
+                                        </div>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">More coming soon...</a>
+                                </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                                <!--search-->
+                                <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                                <!-- Social media dropdown -->
+                                <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSocialMedia" role="button"
+                                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Social media
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdownSocialMedia">
+                                                        <a class="dropdown-item" href="https://steamcommunity.com/id/Saeedo1998"
+                                                           target="_blank">Steam</a>
+                                                        <a class="dropdown-item" href="https://www.youtube.com/channel/UCL4kxYr04pHtWTAG7DGc1mg"
+                                                           target="_blank">Youtube</a>
+                                                        <a class="dropdown-item" href="https://www.instagram.com/saeedo1998/"
+                                                           target="_blank">Instagram</a>
+                                                        <!-- <div class="dropdown-divider"></div> -->
+                                                </div>
+                                        </li>
+                                </ul>
+                        </form>
+                </div>
+        </nav>
+        <br />
+        <div class="container">
+
+
+
+                <h1>Gallery</h1>
+                <br />
+                <br />
+                <!--<div class="row">
+                        <div class="col-md-2">
+                                <img class="img" src="..\Images\1174180_20200215011553_1.png" alt="Red dead 1"/>
+                        </div>
+
+
+                </div>-->
+                <script type="text/javascript">
+                        // MDB Lightbox Init
+                        $(function () {
+                                $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+                        });
+                </script>
+                <div class="row">
+                        <div class="col-md-12">
+
+                                <div id="mdb-lightbox-ui"></div>
+
+                                <div class="mdb-lightbox no-margin">
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200217230248_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200217230248_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Cutscene #1</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200217230251_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200217230251_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Cutscene #2</h3>
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200222151730_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200222151730_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Waterfall #1</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200222151830_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200222151830_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Waterfall #2</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200222152414_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200222152414_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Goldmine</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200219225739_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200219225739_1.png"
+                                                             class="img-fluid" />
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Posse</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200223215717_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200223215717_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Disapproved Look</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200301001757_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200301001757_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Railroad</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200301002217_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200301002217_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Lake</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200307234855_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200307234855_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Cowgirl #1</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200307234905_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200307234905_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Cowgirl #2</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200307234932_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200307234932_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Cowgirl #3</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200307234955_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200307234955_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Cowgirl #4</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200307235014_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200307235014_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Cowgirl #5</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200309223624_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200309223624_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Fancy</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200310205150_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200310205150_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Betrayal</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200316110703_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200316110703_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">LeClerk</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200328004550_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200328004550_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Change of Appearance</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200401015126_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200401015126_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Stare</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200401015201_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200401015201_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Decisions</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200401020935_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200401020935_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-3">Blackwater Night</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200402195957_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200402195957_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-md-2">Moonshine Shack #1</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200402200014_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200402200014_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-md-2">Moonshine Shack #2</h3>
+
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+
+                                        <figure class="col-md-12">
+                                                <a class="black-text" href="..\Images\1174180_20200402210454_1.png"
+                                                   data-size="1600x1067" target="_blank">
+                                                        <img alt="picture" src="..\Images\1174180_20200402210454_1.png"
+                                                             class="img-fluid">
+                                                </a>
+                                                <ul>
+                                                        <li>
+                                                                <h3 class="text-left my-md-2">Calhoun</h3>
+                                                                <!--style="font-size:2vw;"-->
+                                                        </li>
+                                                </ul>
+                                        </figure>
+                                        <br />
+                                        <hr />
+                                        <br />
+
+
+                                        <!--<figure class="col-md-12">
+                <a class="black-text" href="..\Images\naif ndara.jpg"
+                   data-size="1600x1067" target="_blank" >
+                        <img alt="picture" src="..\Images\naif ndara.jpg"
+                             class="img-fluid">
+                </a>
+                <ul>
+                        <li>
+                                <h3 class="text-left my-3">Naif</h3>
+
+                        </li>
+                </ul>
+        </figure>
+        <br />
+        <hr />
+        <br />-->
+                                        <!--Template-->
+                                        <!--<figure class="col-md-12">
+                <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
+                   data-size="1600x1067">
+                        <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
+                             class="img-fluid" />
+                </a>
+                <h3 class="text-left my-3">Photo title</h3>
+
+        </figure>-->
+
+                                </div>
+
+                        </div>
+                </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
