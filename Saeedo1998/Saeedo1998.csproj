@@ -67,7 +67,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Portfolio.html" />
     <Content Include="Fonts\nidsans-demo.html" />
     <Content Include="Fonts\nidsans-webfont.svg" />
     <Content Include="Fonts\stylesheet.css" />
